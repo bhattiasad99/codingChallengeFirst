@@ -1,0 +1,31 @@
+.u-marginLeft {
+    &-close {
+        transform: translateX(0rem);
+    }
+
+    &-medium {
+        transform: translateX(1rem);
+    }
+
+    &-high {
+        transform: translateX(2rem);
+    }
+}
+
+.u-colorPink {
+    color: var(--colorPrimaryDark);
+}
+
+.u-marginTop {
+    &-close {
+        transform: translateY(0rem);
+    }
+
+    &-medium {
+        transform: translateY(1rem);
+    }
+
+    &-high {
+        transform: translateY(2rem);
+    }
+}
